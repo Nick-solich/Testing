@@ -12,7 +12,7 @@ describe("Utils test suite", () => {
       sut = null;
     });
 
-    it.only("should return correct uppercase", () => {
+    it("should return correct uppercase", () => {
       const expected = "ABC";
 
       const actual = sut.toUpperCase("abc");
